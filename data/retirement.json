@@ -126,8 +126,12 @@
    "value": 60485.01
   },
   {
+   "name": "SWGXX Schwab Government Money Fund",
+   "value": 17699.02
+  },
+  {
    "name": "Cash & cash investments",
-   "value": 71773.98
+   "value": 54074.96
   }
  ],
  "allocation": [
@@ -148,13 +152,19 @@
   {
    "name": "Cash",
    "ticker": "Cash",
-   "value": 71773.98,
+   "value": 54074.96,
    "via": "Cash"
   },
   {
    "name": "SWVXX money market",
    "ticker": "SWVXX",
    "value": 60485.01,
+   "via": "Cash"
+  },
+  {
+   "name": "SWGXX money market",
+   "ticker": "SWGXX",
+   "value": 17699.02,
    "via": "Cash"
   },
   {
@@ -660,8 +670,19 @@
   "ETH",
   "BTC",
   "SWSSX",
-  "Gold"
+  "Gold",
+  "SWGXX"
  ],
  "caveat": "Look-through: fund value \u00d7 each holding's published weight. Only each fund's top 9\u201318 holdings are counted; the rest is grouped as Other holdings. Weights as of: PRSCX and FSELX NVDA Sep 30, 2026; FSELX others, FBMPX, FOCPX, SWSSX Aug 31, 2026; MAPTX, MINDX Jun 30, 2026; SGDLX Dec 31, 2025. Source: fund filings via stockanalysis.com.",
- "trades": []
+ "trades": [
+  {
+   "date": "2026-10-23",
+   "action": "BUY",
+   "symbol": "SWGXX",
+   "shares": 17699.02,
+   "price": 1.0,
+   "amount": 17699.02,
+   "note": "Funded from cash"
+  }
+ ]
 }
