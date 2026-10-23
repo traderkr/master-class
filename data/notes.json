@@ -1,61 +1,31 @@
 {
  "updated": "2026-10-23",
- "pledge": "I will never blow up an account again. Fixed size, hard stop, no averaging down, every trade.",
- "rules": [
-  {"group": "IBKR (options)", "items": [
-   "Write the plan before entry: ticker, entry, exit level, target, size.",
-   "Fixed risk per trade (5% of account, stepped up only at Friday milestones).",
-   "Hard stop: done for the day after the 2nd loss or 2x risk lost. No 'one more' trade.",
-   "One entry, fixed size. No averaging down, ever.",
-   "No entries 9:30-10:00. Wait for a higher low after 10:00.",
-   "15-minute time stop: not green in 15 minutes, close it.",
-   "No overnight or weekend holds on losing short-dated options; no holds into earnings.",
-   "Premium in one trade never over 25% of the account.",
-   "Log every trade the same day."]},
-  {"group": "Topstep (futures)", "items": [
-   "$500 risk per trade (R = net / $500).",
-   "Daily stop: 2 losses or $1,000 down, whichever comes first.",
-   "Size caps: 25 MNQ / 10 MES.",
-   "No adds to a position.",
-   "No entries 9:30-10:00.",
-   "15-minute time stop."]}
- ],
- "goals": [
-  "Pass the prop evaluations and get paid: Topstep and Apex, one account at a time, rules first.",
-  "Rebuild the small IBKR account steadily through fixed-risk trades. Size up only at milestones.",
-  "Keep the retirement account steady: long-term, no trading it on emotion.",
-  "Long term: become a millionaire through disciplined, repeatable trading."
- ],
- "lessons": [
-  {"date": "2026-10-22", "title": "Revenge, averaging down, no stop", "text": "Overnight ES call trades, then a 3 AM revenge re-entry. QQQ 713C bought at 9:31 (avoid window), averaged down and held to -80%. A stop would have exited about an hour earlier. A -50R day right after a +24R day: one undisciplined day erased two good ones."},
-  {"date": "2026-10-21", "title": "Green day, bad habits", "text": "Strong day (+24R, 16W/2L), but 8 of 18 trades had adds. Winning while averaging down reinforces the habit that blows accounts."},
-  {"date": "2026-10-16", "title": "One trade, whole daily limit", "text": "Hit the Topstep daily limit in a single MNQ trade by averaging down. No adds means no adds, on futures too."},
-  {"date": "2026-10-12", "title": "One trade = most of the account", "text": "A single 0DTE call averaged down three times (1.47 -> 1.19) with ~88% of the account in premium, closed near zero: -16.8R in one trade."},
-  {"date": "2026-10-08", "title": "Account blown", "text": "No game plan, off-schedule trades, oversized premium. -57R day ended the account. This is why the pledge exists."},
-  {"date": "2026-10-07", "title": "Green at the 2nd loss, then one more", "text": "15W/2L and green at the 2nd loss, then an SPXW trade after the limit averaged from 2 to 20 lots turned the day red (-26R). The hard stop was added because of this day."}
- ],
- "daily": [
-  {"date": "2026-10-22", "items": [{"acct": "IBKR", "R": -50.0, "note": "Overnight revenge trades and averaging down. No trading the night after a big loss."}, {"acct": "Topstep", "R": 4.16, "note": "Green, but kept trading 17 trades past the daily stop; size up to 60 MES."}]},
-  {"date": "2026-10-21", "items": [{"acct": "IBKR", "R": 24.0, "note": "Big green day; adds in 8 of 18 trades."}, {"acct": "Topstep", "R": 3.27, "note": "Green, but daily stop broken and size up to 35 MNQ."}]},
-  {"date": "2026-10-20", "items": [{"acct": "Topstep", "R": 2.07, "note": "Clean 5W/1L day."}]},
-  {"date": "2026-10-19", "items": [{"acct": "Topstep", "R": 4.27, "note": "Green, 33 trades: too many."}]},
-  {"date": "2026-10-16", "items": [{"acct": "Topstep", "R": 3.54, "note": "Daily limit hit in one MNQ trade by averaging down."}]},
-  {"date": "2026-10-13", "items": [{"acct": "Topstep", "R": 13.37, "note": "Strong day across two accounts (each tracked separately)."}]},
-  {"date": "2026-10-12", "items": [{"acct": "IBKR", "R": -16.8, "note": "One averaged-down 0DTE call, most of the account in premium."}]},
-  {"date": "2026-10-09", "items": [{"acct": "IBKR", "R": 10.8, "note": "Rebuild day 1, green, but still averaging down."}]},
-  {"date": "2026-10-08", "items": [{"acct": "IBKR", "R": -57.1, "note": "Account blown. No plan, oversized."}]},
-  {"date": "2026-10-07", "items": [{"acct": "IBKR", "R": -26.1, "note": "Green at 2nd loss, traded past it, turned red."}]},
-  {"date": "2026-10-06", "items": [{"acct": "IBKR", "R": 34.5, "note": "Green, but averaged down up to 8 entries."}]},
-  {"date": "2026-10-05", "items": [{"acct": "IBKR", "R": 29.9, "note": "Green; premium over the risk cap."}]},
-  {"date": "2026-10-04", "items": [{"acct": "IBKR", "R": 1.9, "note": "Sunday evening scalp, not in plan."}]},
-  {"date": "2026-10-02", "items": [{"acct": "IBKR", "R": 14.3, "note": "Green."}]},
-  {"date": "2026-10-01", "items": [{"acct": "IBKR", "R": 22.2, "note": "Green; one trade averaged down 4x."}]},
-  {"date": "2026-09-30", "items": [{"acct": "IBKR", "R": 35.7, "note": "Green week start; averaging down already showing up."}]}
- ],
  "watchlist": [
-  {"name": "Options", "items": ["SPY", "QQQ", "SPXW / XSP (0-2 DTE)"]},
-  {"name": "Futures", "items": ["MNQ", "MES", "NQ", "ES"]},
-  {"name": "Retirement watch", "items": ["Semiconductor concentration is about 21% of the account (look-through).", "Largest chip names: NVDA, AVGO (Broadcom), TSMC.", "A chip selloff hits several funds at once; consider trimming if it grows."]}
+  {
+   "name": "Options",
+   "items": [
+    "SPY",
+    "QQQ",
+    "SPXW / XSP (0-2 DTE)"
+   ]
+  },
+  {
+   "name": "Futures",
+   "items": [
+    "MNQ",
+    "MES",
+    "NQ",
+    "ES"
+   ]
+  },
+  {
+   "name": "Retirement watch",
+   "items": [
+    "Semiconductor concentration is about 21% of the account (look-through).",
+    "Largest chip names: NVDA, AVGO (Broadcom), TSMC.",
+    "A chip selloff hits several funds at once; consider trimming if it grows."
+   ]
+  }
  ],
  "ideas": []
 }

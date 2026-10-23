@@ -1,4 +1,4 @@
-const $=s=>document.querySelector(s), J=u=>fetch(u).then(r=>r.json());
+const $=s=>document.querySelector(s), J=u=>fetch(u+"?v="+Date.now()).then(r=>r.json());
 const usd=(x,d=2)=>(x<0?"-$":"$")+Math.abs(x).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
 const cls=x=>x>=0?"pos":"neg";
 const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
@@ -26,13 +26,8 @@ J("data/retirement.json").then(d=>{
 });
 
 
-fetch("data/notes.json").then(r=>r.json()).then(n=>{
- const li=a=>a.map(x=>`<li>${x}</li>`).join("");
- $("#n-sub").textContent="Updated "+n.updated;$("#n-pledge").textContent=n.pledge;
- $("#n-rules").innerHTML=n.rules.map(g=>`<div><h3>${g.group}</h3><ul>${li(g.items)}</ul></div>`).join("");
- $("#n-goals").innerHTML=li(n.goals);
- $("#n-lessons").innerHTML=n.lessons.map(l=>`<div class="lesson"><span class="note">${l.date}</span> <b>${l.title}</b><p>${l.text}</p></div>`).join("");
- const rows=n.daily.flatMap(d=>d.items.map(i=>({...i,date:d.date})));
- table("#n-daily",["Date","Account","R","Takeaway"],rows.map(r=>[r.date,r.acct,`<span class="${r.R>=0?"pos":"neg"}">${r.R>0?"+":""}${r.R.toFixed(2)}R</span>`,`<span class="l">${r.note}</span>`]));
- $("#n-watch").innerHTML=n.watchlist.map(w=>`<div><h3>${w.name}</h3><ul>${li(w.items)}</ul></div>`).join("")+(n.ideas.length?`<div><h3>Ideas</h3><ul>${li(n.ideas)}</ul></div>`:"");
-});
+J("data/notes.json").then(n=>{
+ const li=a=>(a||[]).map(x=>`<li>${x}</li>`).join("");
+ $("#n-sub").textContent="Updated "+n.updated;
+ $("#n-watch").innerHTML=(n.watchlist||[]).map(w=>`<div><h3>${w.name}</h3><ul>${li(w.items)}</ul></div>`).join("")+((n.ideas||[]).length?`<div><h3>Ideas</h3><ul>${li(n.ideas)}</ul></div>`:"");
+}).catch(e=>{$("#n-watch").textContent="Could not load notes."});
