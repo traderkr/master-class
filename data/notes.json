@@ -2,23 +2,6 @@
  "updated": "2026-10-23",
  "watchlist": [
   {
-   "name": "Options",
-   "items": [
-    "SPY",
-    "QQQ",
-    "SPXW / XSP (0-2 DTE)"
-   ]
-  },
-  {
-   "name": "Futures",
-   "items": [
-    "MNQ",
-    "MES",
-    "NQ",
-    "ES"
-   ]
-  },
-  {
    "name": "Retirement watch",
    "items": [
     "Semiconductor concentration is about 21% of the account (look-through).",
