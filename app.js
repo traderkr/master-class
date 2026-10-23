@@ -31,6 +31,6 @@ J("data/notes.json").then(n=>{
  $("#n-sub").textContent="Updated "+n.updated;
  $("#n-watch").innerHTML=(n.watchlist||[]).map(w=>`<div><h3>${w.name}</h3><ul>${li(w.items)}</ul></div>`).join("")+((n.ideas||[]).length?`<div><h3>Ideas</h3><ul>${li(n.ideas)}</ul></div>`:"");
  const f=n.funds||[],sg=x=>x>0?"+":"";
- table("#n-funds",["Ticker","Fund","Price","Day change"],f.map(r=>[`<b>${r.ticker}</b>`,`<span class="l">${r.name}</span>`,r.price.toFixed(2),`<span class="${r.chg>0?"pos":r.chg<0?"neg":""}">${sg(r.chg)}${r.chg.toFixed(2)} (${sg(r.pct)}${r.pct.toFixed(2)}%)</span>`]));
+ table("#n-funds",["Ticker","Fund","Price","Day change"],f.map(r=>[`<b>${r.ticker}</b>`,`<span class="l">${r.name}</span>`,r.price.toFixed(2),`<span class="${r.chg>0?"pos":r.chg<0?"neg":""}">${sg(r.chg)}${r.chg.toFixed(2)}<br>(${sg(r.pct)}${r.pct.toFixed(2)}%)</span>`]));
  $("#n-fasof").textContent=n.funds_as_of||"";
 }).catch(e=>{$("#n-watch").textContent="Could not load notes."});
