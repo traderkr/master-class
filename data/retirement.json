@@ -1,0 +1,667 @@
+{
+ "account": "Retirement account",
+ "as_of": "2026-10-23",
+ "total": 519852.83,
+ "funds_total": 387593.84,
+ "cash_total": 132258.99,
+ "day_change": -14839.51,
+ "day_pct": -3.69,
+ "unrealized": -15451.54,
+ "unrealized_pct": -3.83,
+ "funds": [
+  {
+   "symbol": "FSELX",
+   "name": "Fidelity Select Semiconductors",
+   "shares": 1352.469,
+   "price": 55.34,
+   "value": 74845.63,
+   "day_chg": -5328.73,
+   "day_pct": -6.65,
+   "gain": -4225.29,
+   "gain_pct": -5.34
+  },
+  {
+   "symbol": "FBMPX",
+   "name": "Fidelity Select Communication Services",
+   "shares": 377.167,
+   "price": 138.05,
+   "value": 52067.9,
+   "day_chg": -1335.17,
+   "day_pct": -2.5,
+   "gain": -1056.41,
+   "gain_pct": -1.99
+  },
+  {
+   "symbol": "MAPTX",
+   "name": "Matthews Pacific Tiger",
+   "shares": 2009.89,
+   "price": 24.75,
+   "value": 49744.78,
+   "day_chg": -1527.52,
+   "day_pct": -2.98,
+   "gain": -3443.82,
+   "gain_pct": -6.47
+  },
+  {
+   "symbol": "SGDLX",
+   "name": "Sprott Gold Equity",
+   "shares": 362.982,
+   "price": 120.95,
+   "value": 43902.67,
+   "day_chg": -2239.6,
+   "day_pct": -4.85,
+   "gain": -5097.33,
+   "gain_pct": -10.4
+  },
+  {
+   "symbol": "PRSCX",
+   "name": "T. Rowe Price Science & Tech",
+   "shares": 620.546,
+   "price": 67.26,
+   "value": 41737.92,
+   "day_chg": -1576.19,
+   "day_pct": -3.64,
+   "gain": -3266.83,
+   "gain_pct": -7.26
+  },
+  {
+   "symbol": "MINDX",
+   "name": "Matthews India",
+   "shares": 1814.11,
+   "price": 21.67,
+   "value": 39311.76,
+   "day_chg": -108.85,
+   "day_pct": -0.28,
+   "gain": -688.24,
+   "gain_pct": -1.72
+  },
+  {
+   "symbol": "FOCPX",
+   "name": "Fidelity OTC",
+   "shares": 1122.474,
+   "price": 26.22,
+   "value": 29431.27,
+   "day_chg": -1212.27,
+   "day_pct": -3.96,
+   "gain": -3328.21,
+   "gain_pct": -10.16
+  },
+  {
+   "symbol": "SWSSX",
+   "name": "Schwab Small Cap Index",
+   "shares": 474.081,
+   "price": 45.09,
+   "value": 21376.31,
+   "day_chg": 23.7,
+   "day_pct": 0.11,
+   "gain": -124.98,
+   "gain_pct": -0.58
+  },
+  {
+   "symbol": "ETHFX",
+   "name": "ProFunds Ether",
+   "shares": 1057.163,
+   "price": 18.62,
+   "value": 19684.38,
+   "day_chg": -930.3,
+   "day_pct": -4.51,
+   "gain": 2399.98,
+   "gain_pct": 13.89
+  },
+  {
+   "symbol": "BTCFX",
+   "name": "ProFunds Bitcoin",
+   "shares": 876.2,
+   "price": 17.68,
+   "value": 15491.22,
+   "day_chg": -604.58,
+   "day_pct": -3.76,
+   "gain": 3379.59,
+   "gain_pct": 27.9
+  }
+ ],
+ "cash": [
+  {
+   "name": "SWVXX Schwab Prime Advantage Money",
+   "value": 60485.01
+  },
+  {
+   "name": "Cash & cash investments",
+   "value": 71773.98
+  }
+ ],
+ "allocation": [
+  {
+   "label": "Sector & thematic funds",
+   "value": 291530.44
+  },
+  {
+   "label": "Cash & money market",
+   "value": 132258.99
+  },
+  {
+   "label": "Other",
+   "value": 96063.4
+  }
+ ],
+ "lookthrough": [
+  {
+   "name": "Cash",
+   "ticker": "Cash",
+   "value": 71773.98,
+   "via": "Cash"
+  },
+  {
+   "name": "SWVXX money market",
+   "ticker": "SWVXX",
+   "value": 60485.01,
+   "via": "Cash"
+  },
+  {
+   "name": "Other holdings in MAPTX",
+   "ticker": "Other MAPTX",
+   "value": 26061.29,
+   "via": "MAPTX"
+  },
+  {
+   "name": "NVIDIA",
+   "ticker": "NVDA",
+   "value": 25628.44,
+   "via": "FSELX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Other holdings in SGDLX",
+   "ticker": "Other SGDLX",
+   "value": 22877.68,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Other holdings in MINDX",
+   "ticker": "Other MINDX",
+   "value": 21574.29,
+   "via": "MINDX"
+  },
+  {
+   "name": "Small-cap index (1,952 stocks)",
+   "ticker": "SWSSX",
+   "value": 21376.31,
+   "via": "SWSSX"
+  },
+  {
+   "name": "Alphabet",
+   "ticker": "GOOGL",
+   "value": 19868.25,
+   "via": "FBMPX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Ether futures",
+   "ticker": "ETH",
+   "value": 19684.38,
+   "via": "ETHFX"
+  },
+  {
+   "name": "Meta Platforms",
+   "ticker": "META",
+   "value": 15753.3,
+   "via": "FBMPX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Bitcoin futures",
+   "ticker": "BTC",
+   "value": 15491.22,
+   "via": "BTCFX"
+  },
+  {
+   "name": "Broadcom",
+   "ticker": "AVGO",
+   "value": 14561.94,
+   "via": "FSELX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Other holdings in PRSCX",
+   "ticker": "Other PRSCX",
+   "value": 11732.53,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Other holdings in FSELX",
+   "ticker": "Other FSELX",
+   "value": 10261.34,
+   "via": "FSELX"
+  },
+  {
+   "name": "Other holdings in FBMPX",
+   "ticker": "Other FBMPX",
+   "value": 9439.91,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Other holdings in FOCPX",
+   "ticker": "Other FOCPX",
+   "value": 8002.36,
+   "via": "FOCPX"
+  },
+  {
+   "name": "Taiwan Semiconductor",
+   "ticker": "TSM",
+   "value": 7207.45,
+   "via": "MAPTX, FOCPX"
+  },
+  {
+   "name": "Apple",
+   "ticker": "AAPL",
+   "value": 6782.76,
+   "via": "PRSCX, FOCPX"
+  },
+  {
+   "name": "Marvell",
+   "ticker": "MRVL",
+   "value": 5906.58,
+   "via": "FSELX, PRSCX"
+  },
+  {
+   "name": "Micron",
+   "ticker": "MU",
+   "value": 5840.33,
+   "via": "FSELX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Samsung Electronics",
+   "ticker": "005930.KS",
+   "value": 5511.72,
+   "via": "MAPTX"
+  },
+  {
+   "name": "AMD",
+   "ticker": "AMD",
+   "value": 5039.99,
+   "via": "FSELX, PRSCX, FOCPX"
+  },
+  {
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "value": 5007.95,
+   "via": "PRSCX, FOCPX"
+  },
+  {
+   "name": "Gold bullion",
+   "ticker": "Gold",
+   "value": 4820.51,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "value": 4735.14,
+   "via": "FBMPX, FOCPX"
+  },
+  {
+   "name": "ASML",
+   "ticker": "ASML",
+   "value": 3547.68,
+   "via": "FSELX"
+  },
+  {
+   "name": "Astera Labs",
+   "ticker": "ALAB",
+   "value": 3487.81,
+   "via": "FSELX"
+  },
+  {
+   "name": "Monolithic Power",
+   "ticker": "MPWR",
+   "value": 3472.84,
+   "via": "FSELX"
+  },
+  {
+   "name": "Lam Research",
+   "ticker": "LRCX",
+   "value": 3230.7,
+   "via": "FSELX, PRSCX"
+  },
+  {
+   "name": "HDFC Bank",
+   "ticker": "HDFCBANK",
+   "value": 3129.22,
+   "via": "MINDX"
+  },
+  {
+   "name": "SK hynix",
+   "ticker": "000660.KS",
+   "value": 2972.59,
+   "via": "MAPTX, PRSCX"
+  },
+  {
+   "name": "Walt Disney",
+   "ticker": "DIS",
+   "value": 2952.25,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Eternal (Zomato)",
+   "ticker": "ETERNAL",
+   "value": 2909.07,
+   "via": "MINDX"
+  },
+  {
+   "name": "AT&T",
+   "ticker": "T",
+   "value": 2780.43,
+   "via": "FBMPX"
+  },
+  {
+   "name": "ON Semiconductor",
+   "ticker": "ON",
+   "value": 2686.96,
+   "via": "FSELX"
+  },
+  {
+   "name": "NXP Semiconductors",
+   "ticker": "NXPI",
+   "value": 2402.54,
+   "via": "FSELX"
+  },
+  {
+   "name": "ICICI Bank",
+   "ticker": "ICICIBANK",
+   "value": 2374.43,
+   "via": "MINDX"
+  },
+  {
+   "name": "Coeur Mining",
+   "ticker": "CDE",
+   "value": 2318.06,
+   "via": "SGDLX"
+  },
+  {
+   "name": "G Mining Ventures",
+   "ticker": "GMIN.TO",
+   "value": 2247.82,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Western Digital",
+   "ticker": "WDC",
+   "value": 2178.01,
+   "via": "FSELX"
+  },
+  {
+   "name": "GlobalFoundries",
+   "ticker": "GFS",
+   "value": 2103.16,
+   "via": "FSELX"
+  },
+  {
+   "name": "OceanaGold",
+   "ticker": "OGC.TO",
+   "value": 2094.16,
+   "via": "SGDLX"
+  },
+  {
+   "name": "IAMGOLD",
+   "ticker": "IAG",
+   "value": 1848.3,
+   "via": "SGDLX"
+  },
+  {
+   "name": "SK Square",
+   "ticker": "402340.KS",
+   "value": 1845.53,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Reliance Industries",
+   "ticker": "RELIANCE",
+   "value": 1831.93,
+   "via": "MINDX"
+  },
+  {
+   "name": "Neuland Labs",
+   "ticker": "NEULANDLAB",
+   "value": 1769.03,
+   "via": "MINDX"
+  },
+  {
+   "name": "Barrick",
+   "ticker": "B",
+   "value": 1742.94,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Bajaj Finance",
+   "ticker": "BAJFINANCE",
+   "value": 1662.89,
+   "via": "MINDX"
+  },
+  {
+   "name": "MACOM",
+   "ticker": "MTSI",
+   "value": 1646.6,
+   "via": "FSELX"
+  },
+  {
+   "name": "Warner Bros. Discovery",
+   "ticker": "WBD",
+   "value": 1624.52,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Agnico Eagle",
+   "ticker": "AEM",
+   "value": 1598.06,
+   "via": "SGDLX"
+  },
+  {
+   "name": "DPM Metals",
+   "ticker": "DPM.TO",
+   "value": 1593.67,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Intel",
+   "ticker": "INTC",
+   "value": 1571.87,
+   "via": "PRSCX, FOCPX"
+  },
+  {
+   "name": "Bharti Airtel",
+   "ticker": "BHARTIARTL",
+   "value": 1552.81,
+   "via": "MINDX"
+  },
+  {
+   "name": "Fox Corp",
+   "ticker": "FOXA",
+   "value": 1520.38,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Take-Two Interactive",
+   "ticker": "TTWO",
+   "value": 1509.97,
+   "via": "FBMPX"
+  },
+  {
+   "name": "DBS Group",
+   "ticker": "D05.SI",
+   "value": 1432.65,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Eldorado Gold",
+   "ticker": "EGO",
+   "value": 1404.89,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Live Nation",
+   "ticker": "LYV",
+   "value": 1400.63,
+   "via": "FBMPX"
+  },
+  {
+   "name": "MediaTek",
+   "ticker": "2454.TW",
+   "value": 1358.03,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Ramelius Resources",
+   "ticker": "RMS.AX",
+   "value": 1356.59,
+   "via": "SGDLX"
+  },
+  {
+   "name": "Naura Technology",
+   "ticker": "002371.SZ",
+   "value": 1303.31,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Shriram Finance",
+   "ticker": "SHRIRAMFIN",
+   "value": 1265.84,
+   "via": "MINDX"
+  },
+  {
+   "name": "SpaceX (private)",
+   "ticker": "SpaceX",
+   "value": 1250.83,
+   "via": "FOCPX"
+  },
+  {
+   "name": "Axis Bank",
+   "ticker": "AXISBANK",
+   "value": 1242.25,
+   "via": "MINDX"
+  },
+  {
+   "name": "Elite Material",
+   "ticker": "2383.TW",
+   "value": 1208.8,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Tencent",
+   "ticker": "0700.HK",
+   "value": 1198.85,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Delta Electronics",
+   "ticker": "2308.TW",
+   "value": 1119.26,
+   "via": "MAPTX"
+  },
+  {
+   "name": "Palantir",
+   "ticker": "PLTR",
+   "value": 955.8,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Nova",
+   "ticker": "NVMI",
+   "value": 920.6,
+   "via": "FSELX"
+  },
+  {
+   "name": "Formula One Group",
+   "ticker": "FWONK",
+   "value": 916.4,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Verizon",
+   "ticker": "VZ",
+   "value": 879.95,
+   "via": "FBMPX"
+  },
+  {
+   "name": "Applied Materials",
+   "ticker": "AMAT",
+   "value": 834.76,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Sandisk",
+   "ticker": "SNDK",
+   "value": 822.24,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Arista Networks",
+   "ticker": "ANET",
+   "value": 751.28,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Palo Alto Networks",
+   "ticker": "PANW",
+   "value": 738.76,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Roblox",
+   "ticker": "RBLX",
+   "value": 723.74,
+   "via": "FBMPX"
+  },
+  {
+   "name": "CrowdStrike",
+   "ticker": "CRWD",
+   "value": 680.33,
+   "via": "PRSCX"
+  },
+  {
+   "name": "Tesla",
+   "ticker": "TSLA",
+   "value": 456.18,
+   "via": "FOCPX"
+  }
+ ],
+ "sectors": [
+  {
+   "label": "Cash",
+   "value": 132258.99
+  },
+  {
+   "label": "Semiconductors",
+   "value": 111497.24
+  },
+  {
+   "label": "Asia/India",
+   "value": 72178.14
+  },
+  {
+   "label": "Communication services",
+   "value": 59369.71
+  },
+  {
+   "label": "Other tech",
+   "value": 44094.17
+  },
+  {
+   "label": "Gold miners",
+   "value": 43902.67
+  },
+  {
+   "label": "Crypto",
+   "value": 35175.6
+  },
+  {
+   "label": "Small cap",
+   "value": 21376.31
+  }
+ ],
+ "non_stock": [
+  "Cash",
+  "SWVXX",
+  "ETH",
+  "BTC",
+  "SWSSX",
+  "Gold"
+ ],
+ "caveat": "Look-through: fund value \u00d7 each holding's published weight. Only each fund's top 9\u201318 holdings are counted; the rest is grouped as Other holdings. Weights as of: PRSCX and FSELX NVDA Sep 30, 2026; FSELX others, FBMPX, FOCPX, SWSSX Aug 31, 2026; MAPTX, MINDX Jun 30, 2026; SGDLX Dec 31, 2025. Source: fund filings via stockanalysis.com.",
+ "trades": []
+}

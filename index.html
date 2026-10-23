@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Master Class</title><link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script></head><body>
+<header><h1>Master Class</h1><nav id="tabs">
+<button data-tab="ret" class="on">Retirement</button><button data-tab="ib">IBKR</button><button data-tab="ts">Topstep</button><button data-tab="gal">Journals</button></nav></header>
+<main>
+<section id="ret" class="tab on">
+ <p class="sub" id="ret-sub"></p><div class="kpis" id="ret-kpis"></div>
+ <div class="card"><h2>Holdings</h2><div class="scroll"><table id="ret-hold"></table></div></div>
+ <div class="grid2"><div class="card"><h2>Allocation</h2><canvas id="c-alloc"></canvas></div>
+ <div class="card"><h2>Sector exposure</h2><canvas id="c-sector"></canvas></div></div>
+ <div class="card"><h2>Top stock exposure (look-through)</h2><div class="tall"><canvas id="c-stocks"></canvas></div><p class="note" id="ret-cav"></p>
+ <details><summary>Full look-through table</summary><div class="scroll"><table id="ret-look"></table></div></details></div>
+ <div class="card"><h2>Cash</h2><table id="ret-cash"></table></div>
+ <div class="card"><h2>Trade log</h2><div id="ret-trades"></div></div>
+</section>
+<section id="ib" class="tab"><div class="kpis" id="ib-kpis"></div>
+ <div class="grid2"><div class="card"><h2>Daily P&amp;L</h2><canvas id="c-ibday"></canvas></div><div class="card"><h2>Cumulative P&amp;L</h2><canvas id="c-ibcum"></canvas></div></div>
+ <div class="card"><h2>Trades</h2><div class="filters"><select id="ib-date"></select><input id="ib-q" placeholder="Filter contract…"><select id="ib-res"><option value="">All</option><option>Wins</option><option>Losses</option></select></div>
+ <div class="scroll"><table id="ib-table"></table></div><p class="note">R = net ÷ $65 risk where no R was logged (marked *).</p></div>
+</section>
+<section id="ts" class="tab"><div class="filters"><label>Account </label><select id="ts-acct"></select></div><div class="kpis" id="ts-kpis"></div>
+ <div class="grid2"><div class="card"><h2>Daily P&amp;L</h2><canvas id="c-tsday"></canvas></div><div class="card"><h2>Cumulative P&amp;L</h2><canvas id="c-tscum"></canvas></div></div>
+ <div class="card"><h2>Trades</h2><div class="scroll"><table id="ts-table"></table></div><p class="note">Each account is shown on its own; accounts are never combined. Net is after estimated commissions. R = net ÷ $500.</p></div>
+</section>
+<section id="gal" class="tab"><div class="filters"><select id="gal-f"><option value="">All</option><option>IBKR</option><option>Topstep</option><option>Charts</option></select></div><div class="gallery" id="gallery"></div></section>
+</main><div id="lb" hidden><img alt=""></div>
+<script src="app.js"></script></body></html>
