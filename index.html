@@ -2,7 +2,7 @@
 <title>Master Class</title><link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script></head><body>
 <header><h1>Master Class</h1><nav id="tabs">
-<button data-tab="ret" class="on">Retirement</button></nav></header>
+<button data-tab="ret" class="on">Retirement</button><button data-tab="notes">Notes</button></nav></header>
 <main>
 <section id="ret" class="tab on">
  <p class="sub" id="ret-sub"></p><div class="kpis" id="ret-kpis"></div>
@@ -13,6 +13,13 @@
  <details><summary>Full look-through table</summary><div class="scroll"><table id="ret-look"></table></div></details></div>
  <div class="card"><h2>Cash</h2><table id="ret-cash"></table></div>
  <div class="card"><h2>Trade log</h2><div id="ret-trades"></div></div>
+</section>
+<section id="notes" class="tab"><p class="sub" id="n-sub"></p>
+ <div class="card pledge"><h2>Rules &amp; pledge</h2><blockquote id="n-pledge"></blockquote><div class="grid2" id="n-rules"></div></div>
+ <div class="card"><h2>Goals</h2><ul id="n-goals"></ul></div>
+ <div class="card"><h2>Lessons learned</h2><div id="n-lessons"></div></div>
+ <div class="card"><h2>Daily notes</h2><div class="scroll"><table id="n-daily"></table></div><p class="note">New entries go at the top of <code>daily</code> in src/notes.json.</p></div>
+ <div class="card"><h2>Watchlist &amp; ideas</h2><div class="grid2" id="n-watch"></div></div>
 </section>
 </main>
 <script src="app.js"></script></body></html>
